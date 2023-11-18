@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Models.fs" />
+        <Compile Include="Utils.fs" />
+        <Compile Include="Database.fs" />
+        <Compile Include="Tasks.fs" />
+        <Compile Include="Commands.fs" />
+        <Compile Include="Program.fs" />
+        <Content Include="db.json" />
+        
+    </ItemGroup>
+
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
+
+</Project>
